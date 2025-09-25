@@ -35,6 +35,7 @@ open class ThemedButton: UIButton {
         let theme = Theme.current
         backgroundColor = theme.primaryColor
         setTitleColor(theme.onPrimaryColor, for: .normal)
+        setTitleColor(theme.backgroundColor, for: .highlighted)
         titleLabel?.font = theme.buttonFont
         layer.cornerRadius = 8
         clipsToBounds = true

@@ -1,3 +1,11 @@
+//
+//  ServiceLocator.swift
+//  EasySetupKit
+//
+//  Created by Kibichy on 25/09/2025.
+//
+
+
 import Foundation
 
 /// A simple, type-safe service locator for dependency management without heavy frameworks.
@@ -38,3 +46,24 @@ public final class ServiceLocator {
         }
     }
 }
+
+
+#if DEBUG
+
+class CheecKView {
+    
+   
+    let serviceLocator = ServiceLocator()
+    
+    
+    func testMe() {
+        ServiceLocator.registerDefaultServices()
+    }
+   
+}
+#endif
+    
+    
+
+
+

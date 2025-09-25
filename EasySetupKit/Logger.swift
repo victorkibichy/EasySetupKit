@@ -1,3 +1,11 @@
+//
+//  Logger.swift
+//  EasySetupKit
+//
+//  Created by Kibichy on 25/09/2025.
+//
+
+
 import Foundation
 
 /// A lightweight logging interface with environment-aware output (e.g., silent in production).
